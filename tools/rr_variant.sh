@@ -30,7 +30,7 @@ echo -e ${blu}" 〉 2- Unofficial "${txtrst}${red}"  ︱ For the unofficial buil
 echo -e "";
 echo -e ${blu}" 〉 3- Nightly "${txtrst}${red}"     ︱ Only for the official daily builds by the maintainers"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 4- Weekly "${txtrst}${red}"      ︱ Only for the official weekly builds by the maintainers"${txtrst}
+echo -e ${blu}" 〉 4- Shishult "${txtrst}${red}"    ︱ just saying"${txtrst}
 echo -e "";
 echo -e ${blu}" 〉 5- Release "${txtrst}${red}"     ︱ Only for the official releases by the RR-Team"${txtrst}
 echo -e "";
@@ -80,8 +80,8 @@ fi
 if [ "$askvariant" == "4" ]
 then
 echo -e "";
-echo -e ${blu}" ▪ Building weekly variant "${txtrst}
-export RR_BUILDTYPE=Weekly
+echo -e ${blu}" ▪ Building delet this variant "${txtrst}
+export RR_BUILDTYPE=Shishult
 echo -e "";
 echo -e "";
 $normal
