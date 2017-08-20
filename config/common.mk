@@ -79,17 +79,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/Features.mkdn:system/etc/RR/Features.txt
 
-# NexusLauncher
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
-
 # Wallpaper
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
-
-# DeskClock
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/DeskClock/DeskClock.apk:system/app/DeskClock/DeskClock.apk
 
 # DU Utils Library
 PRODUCT_BOOT_JARS += \
@@ -336,3 +328,6 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 -include vendor/cm/config/partner_gms.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
+
+BUILD_TRUSHISHU := true
+include vendor/shishu/common.mk
